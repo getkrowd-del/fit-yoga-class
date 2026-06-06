@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- BASE:START (managed by Coding Agent — do not edit) -->
+<base href="/fit-yoga-class/">
+<!-- BASE:END -->
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+
+<!-- SEO Meta Tags -->
+<title>Fit Yoga Class Ticket | Find Your Flow</title>
+<meta name="description" content="A bright, airy landing page for a Fit Yoga class with a calming hero, class details, testimonials, and a $45 ticket checkout." />
+<meta property="og:title" content="Fit Yoga Class Ticket | Find Your Flow" />
+<meta property="og:description" content="A bright, airy landing page for a Fit Yoga class with a calming hero, class details, testimonials, and a $45 ticket checkout." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Fit Yoga Class Ticket | Find Your Flow" />
+<meta name="twitter:description" content="A bright, airy landing page for a Fit Yoga class with a calming hero, class details, testimonials, and a $45 ticket checkout." />
+<!-- End SEO Meta Tags -->
+<script data-lp-token-hydrate>
+(function(){try{
+  var slug="lp-mq28y2gt-yg658";
+  var SK='lp_access_'+slug;
+  var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
+  var u=new URL(location.href);var found=null;var changed=false;
+  Object.keys(map).forEach(function(p){var v=u.searchParams.get(p);if(v){found=v;try{localStorage.setItem(map[p]+slug,v);}catch(e){}u.searchParams.delete(p);changed=true;}});
+  if(found){try{sessionStorage.setItem(SK,found);}catch(e){}}
+  else{try{if(!sessionStorage.getItem(SK)){var t=localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);if(t)sessionStorage.setItem(SK,t);}}catch(e){}}
+  if(changed){try{history.replaceState(null,'',u.toString());}catch(e){}}
+  function getTok(){try{return sessionStorage.getItem(SK)||localStorage.getItem('lp_pw_'+slug)||localStorage.getItem('lp_al_'+slug)||localStorage.getItem('lp_pin_'+slug)||localStorage.getItem('lp_paid_'+slug);}catch(e){return null;}}
+  function needsToken(url,method){if(!url)return false;var s=String(url);var m=(method||'GET').toUpperCase();var isSheetWrite=(m==='POST'||m==='PATCH'||m==='PUT'||m==='DELETE')&&/\/sheet-rows(\/|$|\?)/.test(s);var isSheetRead=/\/sheet-data(\/|$|\?)/.test(s);var isLlm=/\/api\/landing-pages\/public\/[^/]+\/(llm|llm-config)(\/|$|\?)/.test(s);return isSheetWrite||isSheetRead||isLlm;}
+  if(window.fetch){var _f=window.fetch;window.fetch=function(input,init){try{var url=typeof input==='string'?input:(input&&input.url)||'';var method=(init&&init.method)||(input&&input.method)||'GET';if(needsToken(url,method)){var tok=getTok();if(tok){init=init||{};var h=new Headers(init.headers||(typeof input!=='string'?input.headers:undefined)||{});if(!h.has('X-Landing-Page-Token'))h.set('X-Landing-Page-Token',tok);init.headers=h;}}}catch(e){}return _f.call(this,input,init);};}
+  if(window.XMLHttpRequest){var _o=XMLHttpRequest.prototype.open;var _s=XMLHttpRequest.prototype.send;XMLHttpRequest.prototype.open=function(m,u){this.__lpM=m;this.__lpU=u;return _o.apply(this,arguments);};XMLHttpRequest.prototype.send=function(){try{if(needsToken(this.__lpU,this.__lpM)){var tok=getTok();if(tok)this.setRequestHeader('X-Landing-Page-Token',tok);}}catch(e){}return _s.apply(this,arguments);};}
+}catch(e){}})();
+</script>
+
+<script data-gate>
+(function(){
+  var slug='lp-mq28y2gt-yg658';var apiBase='https://paymegpt.com';var currency='USD';var presets=[4500];var minAmt=4500;var maxAmt=4500;var thankYouMsg='You\'re all set! Check your email for your ticket confirmation. We can\'t wait to see you on the mat. Namaste 🙏';
+  var successSubtext='Your spot is confirmed! Check your email for details.';var successBtnLabel='View My Ticket';var successBtnColor='#16a34a';var successRedirect='';
+  function getLang(){var l=(document.documentElement.lang||navigator.language||'en').toLowerCase();return l.split('-')[0];}
+  function getLocale(){return (document.documentElement.lang||navigator.language||'en');}
+  var I18N={en:{min:'Minimum is ',max:'Maximum is ',emailPrompt:'Enter your email for the receipt:',emailRequired:'An email address is required to complete checkout.',failed:'Failed to process donation'},fr:{min:'Le minimum est ',max:'Le maximum est ',emailPrompt:'Entrez votre adresse e-mail pour le reçu :',emailRequired:'Une adresse e-mail est requise pour finaliser le paiement.',failed:'Échec du traitement du don'},es:{min:'El mínimo es ',max:'El máximo es ',emailPrompt:'Introduce tu correo electrónico para el recibo:',emailRequired:'Se requiere una dirección de correo electrónico para completar el pago.',failed:'No se pudo procesar la donación'},pt:{min:'O mínimo é ',max:'O máximo é ',emailPrompt:'Insira seu e-mail para o recibo:',emailRequired:'Um endereço de e-mail é necessário para concluir o pagamento.',failed:'Falha ao processar a doação'},de:{min:'Mindestbetrag ist ',max:'Höchstbetrag ist ',emailPrompt:'Geben Sie Ihre E-Mail-Adresse für die Quittung ein:',emailRequired:'Eine E-Mail-Adresse ist erforderlich, um den Checkout abzuschließen.',failed:'Spende konnte nicht verarbeitet werden'},it:{min:'Il minimo è ',max:'Il massimo è ',emailPrompt:'Inserisci la tua email per la ricevuta:',emailRequired:"È richiesto un indirizzo email per completare il pagamento.",failed:'Impossibile elaborare la donazione'}};
+  function t(k){var L=getLang();return (I18N[L]&&I18N[L][k])||I18N.en[k];}
+  function fmtD(c){try{return new Intl.NumberFormat(getLocale(),{style:'currency',currency:currency}).format(c/100);}catch(e){return new Intl.NumberFormat('en-US',{style:'currency',currency:currency}).format(c/100);}}
+  function findDonEmail(){var ids=['email','emailAddress','buyer-email','buyerEmail','donor-email','donorEmail','user-email','userEmail','contact-email'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.indexOf('@')>-1)return el.value.trim();}var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.indexOf('@')>-1)return inputs[j].value.trim();}return '';}
+  function findDonName(){var ids=['name','fullName','full-name','donor-name','donorName','customer-name','user-name'];for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"])');for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}return '';}
+  window.__processDonation=function(a,b,c,d){
+    var amountCents,email='',donorName='',donorMessage='',productName='',productDescription='',quantity=1;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents||(a.amount?Math.round(Number(a.amount)*100):0);
+      email=a.email||'';
+      productName=a.productName||a.label||'';
+      productDescription=a.productDescription||a.description||'';
+      donorName=a.name||a.donorName||'';
+      donorMessage=a.message||a.donorMessage||'';
+      quantity=a.quantity&&parseInt(a.quantity,10)>0?parseInt(a.quantity,10):1;
+    }else{
+      amountCents=typeof a==='number'?a:(parseInt(a,10)||0);
+      var rest=[b,c,d];var nonEmail=[];
+      for(var i=0;i<rest.length;i++){var v=rest[i];if(typeof v==='string'&&v){if(!email&&v.indexOf('@')>-1&&/^[^s@]+@[^s@]+.[^s@]+$/.test(v.trim())){email=v.trim();}else{nonEmail.push(v);}}}
+      donorName=nonEmail[0]||'';donorMessage=nonEmail[1]||'';
+    }
+    if(!email)email=findDonEmail();
+    if(!donorName)donorName=findDonName();
+    if(!amountCents||amountCents<minAmt){alert(t('min')+fmtD(minAmt));return Promise.reject('below_min');}
+    if(amountCents>maxAmt){alert(t('max')+fmtD(maxAmt));return Promise.reject('above_max');}
+    if(!email){var p=window.prompt(t('emailPrompt'),'');if(p&&p.indexOf('@')>-1){email=p.trim();}else{alert(t('emailRequired'));return Promise.reject('no_email');}}
+    var successBase=window.location.href.split('?')[0];
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/donation/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:donorName||'',amountCents:amountCents,message:donorMessage||'',productName:productName||'',productDescription:productDescription||'',quantity:quantity,locale:getLocale(),successUrl:successBase+'?donation=success&email='+encodeURIComponent(email)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?donation=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||t('failed'));throw new Error(d.error);}
+    });
+  };
+  window.__donationConfig={currency:currency,presets:presets.map(function(c){return c/100;}),minAmount:minAmt/100,maxAmount:maxAmt/100,formatAmount:fmtD};
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('donation')==='success'){
+      var overlay=document.createElement('div');overlay.id='donation-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">'+esc(thankYouMsg)+'</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(successSubtext)+'</p><button id="lp-don-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var dBtn=document.getElementById('lp-don-success-btn');
+      if(dBtn){dBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>
+<script data-field-replace>
+(function(){
+  var params=new URLSearchParams(window.location.search);
+  var fields={};
+  var paramMap={
+    'first_name':'firstName','last_name':'lastName','full_name':'fullName',
+    'email':'email','phone':'phone','company':'company',
+    'city':'city','state':'state','country':'country'
+  };
+  var skipTags={'SCRIPT':1,'STYLE':1,'NOSCRIPT':1,'TEXTAREA':1,'CODE':1,'PRE':1};
+  var hasUrlFields=false;
+  for(var p in paramMap){
+    var v=params.get(p);
+    if(v){fields[paramMap[p]]=v;hasUrlFields=true;}
+  }
+  var contactId=params.get('contact_id');
+  function esc(s){
+    if(!s)return s;
+    var d=document.createElement('div');
+    d.appendChild(document.createTextNode(s));
+    return d.innerHTML;
+  }
+  function doReplace(data){
+    var r={};
+    r['{{full_name}}']=esc(((data.firstName||'')+' '+(data.lastName||'')).trim()||((data.fullName||data.name)||''));
+    r['{{first_name}}']=esc(data.firstName||(data.name?data.name.split(' ')[0]:'')||'');
+    r['{{last_name}}']=esc(data.lastName||(data.name&&data.name.indexOf(' ')>-1?data.name.substring(data.name.indexOf(' ')+1):'')||'');
+    r['{{email}}']=esc(data.email||'');
+    r['{{phone}}']=esc(data.phone||'');
+    r['{{company}}']=esc(data.company||'');
+    r['{{city}}']=esc(data.city||'');
+    r['{{state}}']=esc(data.state||'');
+    r['{{country}}']=esc(data.country||'');
+    r['{{date}}']=new Date().toLocaleDateString();
+    r['{{time}}']=new Date().toLocaleTimeString();
+    r['{{location}}']=[data.city,data.state,data.country].filter(Boolean).join(', ');
+    r['{{tracking_id}}']=esc(data.trackingId||'');
+    r['{{lastClickedProduct}}']=esc(data.lastClickedProduct||'');
+    r['{{lastProductClickDate}}']=esc(data.lastProductClickDate||'');
+    r['{{lastClickedProductPrice}}']=esc(data.lastClickedProductPrice||'');
+    r['{{lastClickedProductURL}}']=esc(data.lastClickedProductURL||'');
+    r['{{productsClickedCount}}']=esc(data.productsClickedCount||'0');
+    r['{{ip_address}}']=esc(data.ipAddress||'');
+    r['{{ip}}']=esc(data.ipAddress||'');
+    if(data.customFields){
+      for(var k in data.customFields){
+        r['{{'+k+'}}']=esc(String(data.customFields[k]||''));
+      }
+    }
+    params.forEach(function(v,k){
+      if(!paramMap[k]&&k!=='contact_id'&&k!=='page_id'&&k.indexOf('utm_')!==0){
+        r['{{'+k+'}}']=esc(v);
+      }
+    });
+    var hasValues=false;
+    for(var key in r){if(r[key]){hasValues=true;break;}}
+    if(!hasValues)return;
+    var walker=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,{
+      acceptNode:function(n){
+        var p=n.parentNode;
+        if(p&&skipTags[p.nodeName])return NodeFilter.FILTER_REJECT;
+        return NodeFilter.FILTER_ACCEPT;
+      }
+    });
+    var node;
+    while(node=walker.nextNode()){
+      var txt=node.nodeValue;
+      if(txt&&txt.indexOf('{{')>-1){
+        var changed=txt;
+        for(var ph in r){
+          if(r[ph]&&changed.indexOf(ph)>-1){
+            changed=changed.split(ph).join(r[ph]);
+          }
+        }
+        if(changed!==txt)node.nodeValue=changed;
+      }
+    }
+    var attrs=['value','placeholder','content','alt','title'];
+    attrs.forEach(function(attr){
+      var els=document.querySelectorAll('['+attr+'*="{{"]');
+      for(var i=0;i<els.length;i++){
+        var tag=els[i].tagName;
+        if(skipTags[tag])continue;
+        var val=els[i].getAttribute(attr);
+        if(val){
+          var nv=val;
+          for(var ph in r){
+            if(r[ph]&&nv.indexOf(ph)>-1){
+              nv=nv.split(ph).join(r[ph]);
+            }
+          }
+          if(nv!==val)els[i].setAttribute(attr,nv);
+        }
+      }
+    });
+  }
+  function run(){
+    if(contactId){
+      var xhr=new XMLHttpRequest();
+      xhr.open('GET','https://paymegpt.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=4593');
+      xhr.onload=function(){
+        if(xhr.status===200){
+          try{
+            var resp=JSON.parse(xhr.responseText);
+            if(resp.success&&resp.contact){
+              var merged=resp.contact;
+              for(var k in fields){merged[k]=fields[k];}
+              doReplace(merged);
+              return;
+            }
+          }catch(e){}
+        }
+        if(hasUrlFields)doReplace(fields);
+      };
+      xhr.onerror=function(){if(hasUrlFields)doReplace(fields);};
+      xhr.send();
+    }else if(hasUrlFields){
+      doReplace(fields);
+    }
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',run);}
+  else{run();}
+})();
+</script>
+<script data-payment>
+(function(){
+  var slug='JA9DRCK4qr';
+  var apiBase='https://paymegpt.com';
+  var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
+  function findEmail(){
+    var ids=['email','emailAddress','buyer-email','buyerEmail','user-email','userEmail','checkout-email','customer-email','contact-email'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value&&el.value.includes('@'))return el.value.trim();}
+    var inputs=document.querySelectorAll('input[type="email"],input[name*="email"],input[placeholder*="email"],input[placeholder*="Email"]');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value&&inputs[j].value.includes('@'))return inputs[j].value.trim();}
+    return '';
+  }
+  function findName(){
+    var ids=['name','fullName','full-name','buyer-name','buyerName','customer-name','userName','user-name'];
+    for(var i=0;i<ids.length;i++){var el=document.getElementById(ids[i]);if(el&&el.value)return el.value.trim();}
+    var inputs=document.querySelectorAll('input[name*="name"]:not([name*="email"]):not([type="email"]),input[placeholder*="name"]:not([placeholder*="email"]):not([type="email"]),input[placeholder*="Name"]:not([type="email"])');
+    for(var j=0;j<inputs.length;j++){if(inputs[j].value)return inputs[j].value.trim();}
+    return '';
+  }
+  var __realProcessPayment=function(a,b,c,d,e){
+    var amountCents,email,productName,productDescription,customerName,quantity;
+    if(a&&typeof a==='object'){
+      amountCents=a.amountCents;email=a.email;productName=a.productName;
+      productDescription=a.productDescription||'';customerName=a.name||'';quantity=a.quantity||1;
+    }else{
+      amountCents=typeof a==='number'?a:0;productName=typeof b==='string'?b:'';
+      productDescription=typeof c==='string'?c:'';email='';customerName='';quantity=1;
+    }
+    if(!email)email=findEmail();
+    if(!customerName)customerName=findName();
+    if(!productName){alert('Product name is required.');return Promise.reject('no_product_name');}
+    if(!amountCents||amountCents<100){alert('Amount must be at least $1.00');return Promise.reject('invalid_amount');}
+    if(!email){alert('Please enter your email address.');return Promise.reject('no_email');}
+    var successBase=window.location.href.split('?')[0];
+    var __pLoc=(document.documentElement.lang||navigator.language||'en');
+    return fetch(apiBase+'/api/landing-pages/public/'+slug+'/payment/checkout',{
+      method:'POST',headers:{'Content-Type':'application/json'},
+      body:JSON.stringify({email:email,name:customerName,amountCents:amountCents,productName:productName,productDescription:productDescription,quantity:quantity,locale:__pLoc,successUrl:successBase+'?payment=success&product='+encodeURIComponent(productName)+'&session_id={CHECKOUT_SESSION_ID}',cancelUrl:successBase+'?payment=cancelled'})
+    }).then(function(r){return r.json();}).then(function(d){
+      if(d.checkoutUrl){window.location.href=d.checkoutUrl;}
+      else{alert(d.error||'Failed to process payment');throw new Error(d.error);}
+    });
+  };
+  Object.defineProperty(window,'__processPayment',{value:__realProcessPayment,writable:false,configurable:false});
+  document.addEventListener('DOMContentLoaded',function(){
+    var urlParams=new URLSearchParams(window.location.search);
+    if(urlParams.get('payment')==='success'){
+      var pName=urlParams.get('product')||'your item';
+      var overlay=document.createElement('div');overlay.id='payment-success-overlay';
+      overlay.style.cssText='position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);display:flex;align-items:center;justify-content:center;z-index:999999;font-family:system-ui,-apple-system,sans-serif;';
+      function esc(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+      var subTxt=successSubtext||('Thank you for purchasing '+pName+'.');
+      overlay.innerHTML='<div style="background:white;border-radius:16px;padding:40px;max-width:420px;width:90%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,0.15);"><div style="width:64px;height:64px;border-radius:50%;background:#dcfce7;margin:0 auto 20px;display:flex;align-items:center;justify-content:center;"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg></div><h2 style="margin:0 0 12px;font-size:24px;font-weight:700;color:#111827;">Payment Successful!</h2><p style="margin:0 0 24px;color:#6b7280;font-size:16px;">'+esc(subTxt)+'</p><button id="lp-pay-success-btn" style="padding:12px 32px;font-size:16px;font-weight:600;background:'+successBtnColor+';color:white;border:none;border-radius:8px;cursor:pointer;">'+esc(successBtnLabel)+'</button></div>';
+      document.body.appendChild(overlay);
+      var pBtn=document.getElementById('lp-pay-success-btn');
+      if(pBtn){pBtn.addEventListener('click',function(){if(successRedirect){window.location.href=successRedirect;}else{overlay.remove();window.history.replaceState({},'',window.location.pathname);}});}
+    }
+  });
+})();
+</script>  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="min-h-screen">
+  <!-- ============================================================================ -->
+  <!-- NAVBAR: Simple brand header with one anchor link                               -->
+  <!-- Notes: Keep this minimal and airy; the page is a single landing page           -->
+  <!-- ============================================================================ -->
+  <nav data-section="navbar" class="px-4 py-4 sm:px-6 md:px-8 lg:px-12">
+    <div class="mx-auto flex max-w-6xl items-center justify-between rounded-full border border-sage-200/70 bg-white/70 px-5 py-3 shadow-sm backdrop-blur">
+      <a href="#hero" class="flex items-center gap-2 text-sm font-semibold tracking-wide text-ink">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-full bg-sage-100 text-sage-deep">✿</span>
+        Fit Yoga
+      </a>
+      <a href="#signup" class="rounded-full bg-ink px-4 py-2 text-sm font-medium text-white transition hover:opacity-90 focus:outline-none focus:ring-2 focus:ring-sage-300">Get Your Ticket</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ============================================================================ -->
+    <!-- HERO: Calm introduction with headline and primary CTA                        -->
+    <!-- Notes: Headline stays fully visible on small screens with safe padding        -->
+    <!-- ============================================================================ -->
+    <section data-section="hero" id="hero" class="px-4 py-8 sm:px-6 md:px-8 lg:px-12 lg:py-12">
+      <div class="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-2">
+        <div class="relative">
+          <div class="absolute -left-4 top-2 h-20 w-20 rounded-full bg-blush/80 blur-2xl float-slow"></div>
+          <div class="absolute right-10 top-14 h-24 w-24 rounded-full bg-sage/80 blur-2xl float-slower"></div>
+
+          <div class="relative soft-card rounded-[2rem] p-7 sm:p-10">
+            <p class="mb-4 inline-flex rounded-full bg-sage-100 px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-sage-deep">
+              Peaceful movement • Premium instruction • All levels
+            </p>
+            <h1 class="serif-heading max-w-xl text-4xl font-semibold leading-tight text-ink sm:text-5xl lg:text-6xl">
+              Find Your Flow
+            </h1>
+            <p class="mt-5 max-w-lg text-base leading-7 text-slate-600 sm:text-lg">
+              Step into a bright, nurturing yoga class designed to open your body, quiet your mind, and leave you feeling grounded. Expect gentle guidance, elegant pacing, and a welcoming atmosphere that feels serene from the moment you arrive.
+            </p>
+
+            <div class="mt-8 flex flex-col gap-3 sm:flex-row">
+              <a href="#signup" class="inline-flex items-center justify-center rounded-full bg-sage-deep px-6 py-3 text-sm font-semibold text-white transition hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-sage-300">
+                Reserve a Spot
+              </a>
+              <a href="#expect" class="inline-flex items-center justify-center rounded-full border border-sage-200 bg-white px-6 py-3 text-sm font-semibold text-ink transition hover:bg-sand focus:outline-none focus:ring-2 focus:ring-sage-200">
+                What to Expect
+              </a>
+            </div>
+
+            <div class="mt-8 grid grid-cols-3 gap-3 text-center">
+              <div class="rounded-2xl bg-cream px-3 py-4">
+                <div class="text-2xl">60</div>
+                <div class="mt-1 text-xs text-slate-500">minutes</div>
+              </div>
+              <div class="rounded-2xl bg-blush/70 px-3 py-4">
+                <div class="text-2xl">All</div>
+                <div class="mt-1 text-xs text-slate-500">levels</div>
+              </div>
+              <div class="rounded-2xl bg-sage/70 px-3 py-4">
+                <div class="text-2xl">1</div>
+                <div class="mt-1 text-xs text-slate-500">peaceful flow</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="relative">
+          <div class="soft-card overflow-hidden rounded-[2rem] p-4 sm:p-6">
+            <div class="relative overflow-hidden rounded-[1.75rem] bg-gradient-to-br from-white via-cream to-sage-50 p-6 sm:p-8">
+              <div class="absolute -right-10 -top-10 h-36 w-36 rounded-full bg-blush/50 blur-3xl"></div>
+              <div class="absolute -bottom-10 left-4 h-28 w-28 rounded-full bg-sage/50 blur-3xl"></div>
+
+              <div class="grid gap-4 sm:grid-cols-2">
+                <div class="rounded-3xl bg-white/80 p-5 shadow-sm">
+                  <p class="text-xs font-semibold uppercase tracking-[0.16em] text-sage-deep">Atmosphere</p>
+                  <p class="mt-3 text-lg font-medium text-ink">Light, airy, and softly restorative</p>
+                </div>
+                <div class="rounded-3xl bg-white/80 p-5 shadow-sm">
+                  <p class="text-xs font-semibold uppercase tracking-[0.16em] text-sage-deep">Focus</p>
+                  <p class="mt-3 text-lg font-medium text-ink">Strength, mobility, breath, and mindfulness</p>
+                </div>
+              </div>
+
+              <div class="mt-4 rounded-3xl border border-white/80 bg-white/75 p-5">
+                <div class="flex items-center justify-between">
+                  <p class="text-sm font-semibold text-ink">Class mood</p>
+                  <span class="rounded-full bg-sage-100 px-3 py-1 text-xs font-semibold text-sage-deep">calm + uplifting</span>
+                </div>
+                <div class="mt-5 space-y-3">
+                  <div class="h-3 w-5/6 rounded-full bg-sand"></div>
+                  <div class="h-3 w-4/5 rounded-full bg-blush/80"></div>
+                  <div class="h-3 w-2/3 rounded-full bg-sage/80"></div>
+                </div>
+                <p class="mt-5 text-sm leading-6 text-slate-600">
+                  Flow through thoughtful sequences in a premium space where every detail is designed to help you soften, strengthen, and reconnect.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- EXPECTATIONS: Four clear class benefits                                       -->
+    <!-- Notes: These cards explain the experience in plain language                   -->
+    <!-- ============================================================================ -->
+    <section data-section="expectations" id="expect" class="px-4 py-10 sm:px-6 md:px-8 lg:px-12">
+      <div class="mx-auto max-w-6xl">
+        <div class="max-w-2xl">
+          <h2 class="serif-heading text-3xl font-semibold text-ink sm:text-4xl">What to Expect in Class</h2>
+          <p class="mt-4 text-base leading-7 text-slate-600">
+            This session blends movement, breath, and stillness into a gentle practice that feels accessible, polished, and deeply refreshing.
+          </p>
+        </div>
+
+        <div class="mt-8 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
+          <article class="soft-card rounded-[1.75rem] p-6">
+            <div class="mb-4 inline-flex rounded-2xl bg-sage-100 p-3 text-sage-deep">↔</div>
+            <h3 class="text-lg font-semibold text-ink">Flexibility</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">Long, supportive stretches to help your body open gradually without feeling rushed.</p>
+          </article>
+          <article class="soft-card rounded-[1.75rem] p-6">
+            <div class="mb-4 inline-flex rounded-2xl bg-blush/70 p-3 text-ink">✦</div>
+            <h3 class="text-lg font-semibold text-ink">Strength</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">Balanced poses that build stability, balance, and quiet confidence from the inside out.</p>
+          </article>
+          <article class="soft-card rounded-[1.75rem] p-6">
+            <div class="mb-4 inline-flex rounded-2xl bg-cream p-3 text-ink">◌</div>
+            <h3 class="text-lg font-semibold text-ink">Mindfulness</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">Gentle cues that invite presence, focus, and a more relaxed relationship with your breath and body.</p>
+          </article>
+          <article class="soft-card rounded-[1.75rem] p-6">
+            <div class="mb-4 inline-flex rounded-2xl bg-sand p-3 text-ink">〰</div>
+            <h3 class="text-lg font-semibold text-ink">Breath Work</h3>
+            <p class="mt-3 text-sm leading-6 text-slate-600">Simple breathing practices to help you slow down, release tension, and settle your nervous system.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- CLASS DETAILS: Practical info and what to bring                               -->
+    <!-- Notes: Use this section to answer common first-time attendee questions         -->
+    <!-- ============================================================================ -->
+    <section data-section="details" class="px-4 py-10 sm:px-6 md:px-8 lg:px-12">
+      <div class="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[1.15fr_0.85fr]">
+        <article class="soft-card rounded-[2rem] p-7 sm:p-9">
+          <h2 class="serif-heading text-3xl font-semibold text-ink sm:text-4xl">Class Details</h2>
+          <p class="mt-4 text-base leading-7 text-slate-600">
+            Everything is designed to feel easy and welcoming. Come as you are and settle into a thoughtfully paced class with clear guidance.
+          </p>
+
+          <div class="mt-8 grid gap-4 sm:grid-cols-3">
+            <div class="rounded-3xl bg-cream p-5">
+              <p class="text-xs font-semibold uppercase tracking-[0.16em] text-sage-deep">Bring</p>
+              <p class="mt-2 text-base font-medium text-ink">Your mat, water, and a small towel if you like</p>
+            </div>
+            <div class="rounded-3xl bg-blush/60 p-5">
+              <p class="text-xs font-semibold uppercase tracking-[0.16em] text-sage-deep">Wear</p>
+              <p class="mt-2 text-base font-medium text-ink">Comfortable, stretchy clothes that let you move freely</p>
+            </div>
+            <div class="rounded-3xl bg-sage/60 p-5">
+              <p class="text-xs font-semibold uppercase tracking-[0.16em] text-sage-deep">Level</p>
+              <p class="mt-2 text-base font-medium text-ink">All levels welcome, including first-time students</p>
+            </div>
+          </div>
+        </article>
+
+        <aside class="soft-card rounded-[2rem] p-7 sm:p-9">
+          <h3 class="serif-heading text-2xl font-semibold text-ink">A Few Gentle Promises</h3>
+          <ul class="mt-5 space-y-4 text-sm leading-6 text-slate-600">
+            <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-sage-deep"></span> You will never be pushed past your comfort level.</li>
+            <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-sage-deep"></span> Modifications are offered throughout class.</li>
+            <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-sage-deep"></span> The pace supports both beginners and experienced practitioners.</li>
+            <li class="flex gap-3"><span class="mt-1 h-2.5 w-2.5 rounded-full bg-sage-deep"></span> The atmosphere stays bright, calm, and encouraging.</li>
+          </ul>
+
+          <div class="mt-8 rounded-3xl bg-white p-5 shadow-sm">
+            <p class="text-xs font-semibold uppercase tracking-[0.16em] text-sage-deep">Best for</p>
+            <p class="mt-2 text-lg font-medium text-ink">A reset after work, a mindful morning, or a peaceful weekend ritual.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- SIGNUP / TICKET: Purchase form with payment processing                        -->
+    <!-- Notes: Email field is required and must keep id="email" exactly as requested   -->
+    <!-- ============================================================================ -->
+    <section data-section="signup" id="signup" class="px-4 py-10 sm:px-6 md:px-8 lg:px-12">
+      <div class="mx-auto max-w-6xl">
+        <div class="soft-card overflow-hidden rounded-[2.25rem]">
+          <div class="grid lg:grid-cols-[1fr_0.9fr]">
+            <div class="relative overflow-hidden bg-gradient-to-br from-white via-cream to-blush/55 p-7 sm:p-10">
+              <div class="absolute -right-8 top-8 h-28 w-28 rounded-full bg-sage/40 blur-3xl"></div>
+              <div class="absolute bottom-4 left-6 h-24 w-24 rounded-full bg-blush/50 blur-3xl"></div>
+
+              <p class="inline-flex rounded-full bg-white px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-sage-deep shadow-sm">
+                Ticket signup
+              </p>
+              <h2 class="serif-heading mt-5 text-3xl font-semibold text-ink sm:text-4xl">Reserve Your Spot</h2>
+              <p class="mt-4 max-w-xl text-base leading-7 text-slate-600">
+                Secure your place in the next Fit Yoga class for a peaceful, premium experience. One ticket, one beautiful reset.
+              </p>
+
+              <div class="mt-8 grid gap-4 sm:grid-cols-2">
+                <div class="rounded-3xl bg-white/80 p-5">
+                  <p class="text-sm font-semibold text-ink">Ticket price</p>
+                  <p class="mt-2 text-3xl font-semibold text-sage-deep">$45</p>
+                </div>
+                <div class="rounded-3xl bg-white/80 p-5">
+                  <p class="text-sm font-semibold text-ink">Includes</p>
+                  <p class="mt-2 text-base text-slate-600">Class access, guided flow, and a welcoming space to move and breathe.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bg-white p-7 sm:p-10">
+              <form id="ticket-form" class="space-y-5">
+                <div>
+                  <label for="email" class="mb-2 block text-sm font-medium text-ink">Email address</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                    placeholder="you@example.com"
+                    class="w-full rounded-2xl border border-sage-200 bg-cream/60 px-4 py-3 text-ink outline-none transition placeholder:text-slate-400 focus:border-sage-300 focus:ring-2 focus:ring-sage-200"
+                  />
+                </div>
+
+                <div>
+                  <label for="name" class="mb-2 block text-sm font-medium text-ink">Name <span class="font-normal text-slate-400">(optional)</span></label>
+                  <input
+                    id="name"
+                    name="name"
+                    type="text"
+                    placeholder="Your name"
+                    class="w-full rounded-2xl border border-sage-200 bg-cream/60 px-4 py-3 text-ink outline-none transition placeholder:text-slate-400 focus:border-sage-300 focus:ring-2 focus:ring-sage-200"
+                  />
+                </div>
+
+                <button
+                  type="submit"
+                  class="w-full rounded-full bg-ink px-6 py-4 text-base font-semibold text-white shadow-lg shadow-ink/10 transition hover:translate-y-[-1px] hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-sage-300"
+                >
+                  Get Your Ticket - $45
+                </button>
+
+                <p class="text-xs leading-5 text-slate-500">
+                  By purchasing, you’ll be redirected to secure checkout to complete your booking.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- TESTIMONIALS: Light social proof                                              -->
+    <!-- Notes: Short, sincere quotes that match the calm premium tone                 -->
+    <!-- ============================================================================ -->
+    <section data-section="testimonials" class="px-4 py-10 sm:px-6 md:px-8 lg:px-12">
+      <div class="mx-auto max-w-6xl">
+        <div class="max-w-2xl">
+          <h2 class="serif-heading text-3xl font-semibold text-ink sm:text-4xl">What Students Feel After Class</h2>
+        </div>
+        <div class="mt-8 grid gap-5 md:grid-cols-3">
+          <figure class="soft-card rounded-[1.75rem] p-6">
+            <blockquote class="text-sm leading-6 text-slate-600">“The room felt bright, calm, and welcoming. I left feeling lighter and more open.”</blockquote>
+            <figcaption class="mt-4 text-sm font-semibold text-ink">Maya R.</figcaption>
+          </figure>
+          <figure class="soft-card rounded-[1.75rem] p-6">
+            <blockquote class="text-sm leading-6 text-slate-600">“Beautiful pacing, clear instruction, and just the right balance of challenge and softness.”</blockquote>
+            <figcaption class="mt-4 text-sm font-semibold text-ink">Jordan S.</figcaption>
+          </figure>
+          <figure class="soft-card rounded-[1.75rem] p-6">
+            <blockquote class="text-sm leading-6 text-slate-600">“It felt premium without being intimidating — exactly what I wanted from a yoga class.”</blockquote>
+            <figcaption class="mt-4 text-sm font-semibold text-ink">Elena T.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================================ -->
+    <!-- CTA: Final gentle invitation                                                  -->
+    <!-- Notes: Reinforces the purchase action with a softer emotional close           -->
+    <!-- ============================================================================ -->
+    <section data-section="cta" class="px-4 py-10 sm:px-6 md:px-8 lg:px-12">
+      <div class="mx-auto max-w-6xl">
+        <div class="soft-card relative overflow-hidden rounded-[2.25rem] px-7 py-10 sm:px-10">
+          <div class="absolute -left-10 top-0 h-40 w-40 rounded-full bg-sage/30 blur-3xl"></div>
+          <div class="absolute right-0 bottom-0 h-44 w-44 rounded-full bg-blush/40 blur-3xl"></div>
+          <div class="relative flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-center">
+            <div class="max-w-2xl">
+              <h2 class="serif-heading text-3xl font-semibold text-ink sm:text-4xl">A peaceful class, a clear reset, a beautiful way to move.</h2>
+              <p class="mt-4 text-base leading-7 text-slate-600">
+                If you’ve been craving something calm, premium, and genuinely restorative, this Fit Yoga class was made for you.
+              </p>
+            </div>
+            <a href="#signup" class="rounded-full bg-sage-deep px-6 py-3 text-sm font-semibold text-white transition hover:opacity-95 focus:outline-none focus:ring-2 focus:ring-sage-300">
+              Get Your Ticket
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================================ -->
+  <!-- FOOTER: Minimal closing information                                            -->
+  <!-- Notes: Keep it light and aligned with the peaceful visual style               -->
+  <!-- ============================================================================ -->
+  <footer data-section="footer" class="px-4 pb-8 pt-6 sm:px-6 md:px-8 lg:px-12">
+    <div class="mx-auto flex max-w-6xl flex-col gap-4 border-t border-sage-200/70 pt-6 text-sm text-slate-500 sm:flex-row sm:items-center sm:justify-between">
+      <p>Fit Yoga Class</p>
+      <p>© 2026 • Soft movement, bright energy, and mindful flow</p>
+    </div>
+  </footer>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
