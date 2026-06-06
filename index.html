@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 
 <!-- SEO Meta Tags -->
@@ -21,7 +21,7 @@
 <!-- End SEO Meta Tags -->
 <script data-lp-token-hydrate>
 (function(){try{
-  var slug="lp-mq29gec1-oli7s";
+  var slug="lp-mq2acodn-j1qcn";
   var SK='lp_access_'+slug;
   var map={access_token:'lp_pw_',allowlist_access_token:'lp_al_',pin_access_token:'lp_pin_',paywall_access_token:'lp_paid_'};
   var u=new URL(location.href);var found=null;var changed=false;
@@ -38,8 +38,8 @@
 
 <script data-gate>
 (function(){
-  var slug='lp-mq29gec1-oli7s';var apiBase='https://paymegpt.com';var currency='USD';var presets=[4500];var minAmt=4500;var maxAmt=4500;var thankYouMsg='You\'re all set! Check your email for your ticket confirmation. We can\'t wait to see you on the mat. Namaste 🙏';
-  var successSubtext='Your spot is confirmed! Check your email for details.';var successBtnLabel='View My Ticket';var successBtnColor='#16a34a';var successRedirect='';
+  var slug='lp-mq2acodn-j1qcn';var apiBase='https://paymegpt.com';var currency='USD';var presets=[4500,8000];var minAmt=4500;var maxAmt=20000;var thankYouMsg='You\'re all set! Check your email for your eTicket. See you on the mat! 🧘';
+  var successSubtext='Your spot is confirmed! Check your email for your eTicket.';var successBtnLabel='View My eTicket';var successBtnColor='#16a34a';var successRedirect='';
   function getLang(){var l=(document.documentElement.lang||navigator.language||'en').toLowerCase();return l.split('-')[0];}
   function getLocale(){return (document.documentElement.lang||navigator.language||'en');}
   var I18N={en:{min:'Minimum is ',max:'Maximum is ',emailPrompt:'Enter your email for the receipt:',emailRequired:'An email address is required to complete checkout.',failed:'Failed to process donation'},fr:{min:'Le minimum est ',max:'Le maximum est ',emailPrompt:'Entrez votre adresse e-mail pour le reçu :',emailRequired:'Une adresse e-mail est requise pour finaliser le paiement.',failed:'Échec du traitement du don'},es:{min:'El mínimo es ',max:'El máximo es ',emailPrompt:'Introduce tu correo electrónico para el recibo:',emailRequired:'Se requiere una dirección de correo electrónico para completar el pago.',failed:'No se pudo procesar la donación'},pt:{min:'O mínimo é ',max:'O máximo é ',emailPrompt:'Insira seu e-mail para o recibo:',emailRequired:'Um endereço de e-mail é necessário para concluir o pagamento.',failed:'Falha ao processar a doação'},de:{min:'Mindestbetrag ist ',max:'Höchstbetrag ist ',emailPrompt:'Geben Sie Ihre E-Mail-Adresse für die Quittung ein:',emailRequired:'Eine E-Mail-Adresse ist erforderlich, um den Checkout abzuschließen.',failed:'Spende konnte nicht verarbeitet werden'},it:{min:'Il minimo è ',max:'Il massimo è ',emailPrompt:'Inserisci la tua email per la ricevuta:',emailRequired:"È richiesto un indirizzo email per completare il pagamento.",failed:'Impossibile elaborare la donazione'}};
@@ -191,7 +191,7 @@
   function run(){
     if(contactId){
       var xhr=new XMLHttpRequest();
-      xhr.open('GET','https://paymegpt.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=4594');
+      xhr.open('GET','https://paymegpt.com/api/landing/context/'+encodeURIComponent(contactId)+'?page_id=4595');
       xhr.onload=function(){
         if(xhr.status===200){
           try{
@@ -218,7 +218,7 @@
 </script>
 <script data-payment>
 (function(){
-  var slug='wVUVHDQ';
+  var slug='Tz59PUUU2g';
   var apiBase='https://paymegpt.com';
   var successSubtext='';var successBtnLabel='Continue';var successBtnColor='#16a34a';var successRedirect='';
   function findEmail(){
@@ -279,160 +279,256 @@
 </head>
 <body>
 
-<!-- NAV -->
-<nav id="nav">
+<nav>
   <div class="logo">Fit <span>Yoga</span></div>
   <div class="nav-links">
-    <a href="#expect">Practice</a>
+    <a href="#about">About</a>
     <a href="#details">Details</a>
-    <a href="#ticket" class="nav-cta">Get Tickets</a>
   </div>
 </nav>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="hero-bg"></div>
-  <div class="hero-circle"></div>
-  <div class="hero-content">
-    <div class="hero-tag">Yoga &middot; Strength &middot; Stillness</div>
-    <h1>Find Your<br><em>Flow</em></h1>
-    <p>A mindful yoga experience designed to build strength, deepen flexibility, and quiet the noise. Step onto the mat and reconnect with yourself.</p>
-    <a href="#ticket" class="hero-btn">
-      Reserve Your Spot
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-    </a>
-  </div>
-  <div class="scroll-hint">
-    <div class="scroll-line"></div>
-    scroll
-  </div>
-</section>
-
-<!-- WHAT TO EXPECT -->
-<section class="expect" id="expect">
-  <div class="reveal">
-    <div class="section-tag">The Practice</div>
-    <div class="section-title">What to Expect</div>
-    <div class="section-subtitle">Every class is a journey — from the first breath to the final savasana.</div>
-  </div>
-  <div class="expect-grid">
-    <div class="expect-visual reveal reveal-delay-1">
-      <div class="overlay-text">Breathe deeply.<br>Move freely.</div>
+<!-- EVENT HERO -->
+<div class="event-hero">
+  <div class="hero-image">
+    <div class="hero-overlay"></div>
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="hero-image-inner">
+      <h1>Find Your <em>Flow</em></h1>
+      <p>Yoga · Strength · Stillness</p>
     </div>
-    <div class="expect-list">
-      <div class="expect-item reveal reveal-delay-1">
-        <div class="expect-num">01</div>
-        <div>
-          <h3>Dynamic Flow</h3>
-          <p>Move through creative vinyasa sequences that build heat and challenge your body with intention and grace.</p>
-        </div>
-      </div>
-      <div class="expect-item reveal reveal-delay-2">
-        <div class="expect-num">02</div>
-        <div>
-          <h3>Functional Strength</h3>
-          <p>Integrated bodyweight holds and balances that sculpt lean muscle and improve stability from the inside out.</p>
-        </div>
-      </div>
-      <div class="expect-item reveal reveal-delay-3">
-        <div class="expect-num">03</div>
-        <div>
-          <h3>Breathwork & Stillness</h3>
-          <p>Guided pranayama and meditation to calm the nervous system and leave you grounded, clear, and restored.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- MARQUEE -->
-<div class="marquee-section">
-  <div class="marquee-track">
-    <div class="marquee-item">All Levels Welcome <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Bring Your Mat <span class="marquee-dot"></span></div>
-    <div class="marquee-item">60 Minutes <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Wear Comfy Clothes <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Hydrate Before Class <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Arrive 10 Min Early <span class="marquee-dot"></span></div>
-    <div class="marquee-item">All Levels Welcome <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Bring Your Mat <span class="marquee-dot"></span></div>
-    <div class="marquee-item">60 Minutes <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Wear Comfy Clothes <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Hydrate Before Class <span class="marquee-dot"></span></div>
-    <div class="marquee-item">Arrive 10 Min Early <span class="marquee-dot"></span></div>
   </div>
 </div>
 
-<!-- CLASS DETAILS -->
-<section class="details" id="details">
-  <div class="reveal">
-    <div class="section-tag">Before You Arrive</div>
-    <div class="section-title">Class Details</div>
-    <div class="section-subtitle">Everything you need to know to make the most of your practice.</div>
+<!-- EVENT LAYOUT -->
+<div class="event-layout">
+  <!-- LEFT -->
+  <div class="event-main">
+    <div class="event-tag">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+      Spots Filling Up
+    </div>
+    <h1 class="event-title">Fit Yoga Class</h1>
+
+    <div class="event-organizer">
+      <div class="org-avatar">FY</div>
+      <div class="org-info">
+        <div class="org-name">by Fit Yoga Studio</div>
+        <div class="org-meta">128 followers · 12 events · 430 total attendees</div>
+      </div>
+      <button class="org-follow">Follow</button>
+    </div>
+
+    <div class="event-meta">
+      <div class="meta-item">
+        <div class="meta-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>
+        </div>
+        <div>
+          <div class="meta-label">Date and time</div>
+          <div class="meta-value">Saturday, June 14 · 9:00 AM – 10:00 AM EDT</div>
+        </div>
+      </div>
+      <div class="meta-item">
+        <div class="meta-icon">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </div>
+        <div>
+          <div class="meta-label">Location</div>
+          <div class="meta-value">Fit Yoga Studio · New York, NY</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="event-description" id="about">
+      <h2>About This Event</h2>
+      <p>Join us for 60 minutes of guided vinyasa flow designed to build strength, deepen flexibility, and quiet the noise. Step onto the mat and reconnect with yourself in a warm, welcoming space.</p>
+
+      <h3>What to Expect</h3>
+      <div class="expect-items">
+        <div class="expect-item-row"><span class="check">✓</span> Dynamic vinyasa flow sequences that build heat with intention</div>
+        <div class="expect-item-row"><span class="check">✓</span> Functional bodyweight holds and balances for lean strength</div>
+        <div class="expect-item-row"><span class="check">✓</span> Guided pranayama breathwork and meditation</div>
+        <div class="expect-item-row"><span class="check">✓</span> Deep stretching and savasana to close</div>
+      </div>
+
+      <h3>Before You Arrive</h3>
+      <p>Bring your yoga mat, a water bottle, and a towel. Wear comfortable clothes you can move freely in. Blocks and straps are provided. All levels are welcome — every pose offers modifications. Please arrive 10 minutes early.</p>
+    </div>
   </div>
+
+  <!-- RIGHT: TICKET CARD -->
+  <div class="ticket-card">
+    <div class="ticket-card-header">✦ Limited Spots Available</div>
+    <div class="ticket-card-body">
+      <div class="ticket-price">$45 <span>per person</span></div>
+      <div class="ticket-date">Sat, Jun 14 · 9:00 AM</div>
+      <button class="ticket-cta" onclick="openModal()">Get Tickets</button>
+    </div>
+  </div>
+</div>
+
+<!-- DETAILS CARDS -->
+<div class="details-section" id="details">
   <div class="details-grid">
-    <div class="detail-card reveal reveal-delay-1">
-      <div class="detail-icon">🧘</div>
+    <div class="detail-card">
+      <div class="icon">🧘</div>
       <h3>All Levels Welcome</h3>
-      <p>Whether you've never touched a mat or you're a seasoned practitioner, every pose offers modifications. Come as you are — your body, your pace.</p>
+      <p>Never touched a mat? Seasoned practitioner? Every pose offers modifications. Come as you are.</p>
     </div>
-    <div class="detail-card reveal reveal-delay-2">
-      <div class="detail-icon">🎒</div>
+    <div class="detail-card">
+      <div class="icon">🎒</div>
       <h3>What to Bring</h3>
-      <p>Your yoga mat, a water bottle, and a towel. Wear clothes you can move freely in. Blocks and straps are provided if you need them.</p>
+      <p>Your mat, water bottle, and a towel. Blocks and straps provided if needed.</p>
     </div>
-    <div class="detail-card reveal reveal-delay-3">
-      <div class="detail-icon">⏱</div>
-      <h3>Class Format</h3>
-      <p>60 minutes of guided flow. We begin with centering breathwork, move through a dynamic sequence, and close with deep stretching and savasana.</p>
+    <div class="detail-card">
+      <div class="icon">⏱</div>
+      <h3>60 Min Flow</h3>
+      <p>Centering breathwork, dynamic sequence, deep stretching, and savasana.</p>
     </div>
   </div>
-</section>
-
-<!-- TESTIMONIAL -->
-<div class="testimonial reveal">
-  <blockquote>"This class changed the way I move through my day. I came for the workout and stayed for the peace of mind."</blockquote>
-  <cite>— Alicia M., Student</cite>
 </div>
 
-<!-- TICKET -->
-<section class="ticket" id="ticket">
-  <div class="ticket-bg"></div>
-  <div class="ticket-inner">
-    <div class="reveal">
-      <div class="section-tag">Reserve Your Mat</div>
-      <div class="section-title">Get Your Ticket</div>
-      <div class="section-subtitle">Secure your spot in the next Fit Yoga class. Limited spaces to keep it intimate.</div>
-    </div>
-    <div class="reveal reveal-delay-1">
-      <div class="price-display">
-        <span class="price-currency">$</span>
-        <span class="price-amount">45</span>
-      </div>
-      <div class="price-label">per class</div>
-    </div>
-    <div class="ticket-form reveal reveal-delay-2">
-      <input type="text" id="fullname" placeholder="Your full name" required>
-      <input type="email" id="email" placeholder="Your email address" required>
-      <button class="ticket-btn" onclick="handleTicket()">Get Your Ticket — $45</button>
-      <div class="ticket-note">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--sage)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-        Secure checkout via Stripe. You'll receive a confirmation email with all the details.
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
 <footer>
   <div class="footer-logo">Fit <span>Yoga</span></div>
-  <div class="footer-links">
-    <a href="#expect">Practice</a>
-    <a href="#details">Details</a>
-    <a href="#ticket">Tickets</a>
-  </div>
   <p>&copy; 2026 Fit Yoga. All rights reserved.</p>
 </footer>
+
+<!-- ─── TICKET MODAL ─── -->
+<div class="modal-overlay" id="modal">
+  <div class="ticket-modal">
+    <!-- LEFT: TICKET SELECT / CHECKOUT -->
+    <div class="modal-left">
+      <!-- STEP 1: Select tickets -->
+      <div id="step-tickets" class="checkout-step active">
+        <div class="modal-header">
+          <h2>Fit Yoga Class</h2>
+          <p>Saturday, Jun 14 · 9:00 – 10:00 AM EDT</p>
+          <button class="modal-close" onclick="closeModal()">×</button>
+        </div>
+        <div class="modal-tickets">
+          <div class="ticket-option selected" id="opt-general">
+            <div class="ticket-option-top">
+              <h3>General Admission</h3>
+              <div class="qty-control">
+                <button class="qty-btn" onclick="changeQty('general',-1)" id="gen-minus" disabled>−</button>
+                <span class="qty-num" id="gen-qty">1</span>
+                <button class="qty-btn" onclick="changeQty('general',1)" id="gen-plus">+</button>
+              </div>
+            </div>
+            <div class="ticket-option-price">$45.00 <span class="fee">incl. fees</span></div>
+            <div class="ticket-badge badge-sale">⏰ Spots filling up</div>
+          </div>
+
+          <div class="ticket-option" id="opt-duo">
+            <div class="ticket-option-top">
+              <h3>Bring a Friend (2-Pack)</h3>
+              <div class="qty-control">
+                <button class="qty-btn" onclick="changeQty('duo',-1)" id="duo-minus" disabled>−</button>
+                <span class="qty-num" id="duo-qty">0</span>
+                <button class="qty-btn" onclick="changeQty('duo',1)" id="duo-plus">+</button>
+              </div>
+            </div>
+            <div class="ticket-option-price">$80.00 <s style="color:var(--text-light);font-weight:300">$90.00</s> <span class="fee">incl. fees</span></div>
+            <div class="ticket-badge badge-deal">🏷 2 for 1 deal — save $10</div>
+            <div class="ticket-option-desc">Bring a friend and save! Two tickets for the price of less. Perfect for workout buddies.</div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="urgency-banner">🔥 Limited spots — reserve now</div>
+          <button class="checkout-btn" id="checkout-btn" onclick="goToCheckout()">Check out</button>
+        </div>
+      </div>
+
+      <!-- STEP 2: Checkout -->
+      <div id="step-checkout" class="checkout-step">
+        <div class="modal-header" style="text-align:left;display:flex;flex-direction:column;align-items:flex-start">
+          <button class="modal-close" onclick="closeModal()">×</button>
+          <button class="back-btn" onclick="goBack()">← Back</button>
+          <h2 style="font-family:'Outfit',sans-serif;font-weight:600">Checkout</h2>
+          <div class="checkout-timer" id="timer-display">⏱ Time left: <strong id="timer-val">10:00</strong></div>
+        </div>
+
+        <div style="padding:0 2rem 2rem">
+          <div class="checkout-event-card">
+            <div class="checkout-event-thumb"></div>
+            <div class="checkout-event-info">
+              <h4>Fit Yoga Class</h4>
+              <p>Sat, Jun 14 · 9:00 AM</p>
+              <div class="price" id="checkout-price-display">$45.00</div>
+            </div>
+          </div>
+
+          <div class="form-section">
+            <h3>Billing information</h3>
+            <div class="form-row">
+              <div class="form-field">
+                <label>First name <span class="req">*</span></label>
+                <input type="text" id="fname" placeholder="First name" required>
+              </div>
+              <div class="form-field">
+                <label>Last name <span class="req">*</span></label>
+                <input type="text" id="lname" placeholder="Last name">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label>Email address <span class="req">*</span></label>
+                <input type="email" id="email" placeholder="Email address" required>
+              </div>
+              <div class="form-field">
+                <label>Confirm email <span class="req">*</span></label>
+                <input type="email" id="email2" placeholder="Confirm email">
+              </div>
+            </div>
+          </div>
+
+          <div class="checkout-opt">
+            <input type="checkbox" checked> Keep me updated on more events from this organizer.
+          </div>
+          <div class="checkout-opt">
+            <input type="checkbox"> Send me emails about wellness events nearby.
+          </div>
+
+          <div class="pay-section" style="margin-top:2rem">
+            <h3>Pay with</h3>
+            <div class="pay-option selected">
+              <span class="pay-icon">💳</span>
+              <span class="pay-label">Credit or debit card</span>
+            </div>
+          </div>
+
+          <button class="place-order-btn" onclick="placeOrder()">Place order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: ORDER SUMMARY -->
+    <div class="modal-right">
+      <div class="summary-preview">
+        <div class="summary-preview-text">
+          <h3>Fit Yoga</h3>
+          <p>Sat, Jun 14 · 9 AM</p>
+        </div>
+        <button class="summary-close" onclick="closeModal()">×</button>
+      </div>
+      <div class="summary-body">
+        <h4>Order summary</h4>
+        <div id="summary-lines">
+          <div class="summary-line"><span>1 x General Admission</span><span>$45.00</span></div>
+        </div>
+        <div class="summary-divider"></div>
+        <div class="summary-line"><span>Subtotal</span><span id="summary-subtotal">$45.00</span></div>
+        <div class="summary-line subtle"><span>Fees</span><span id="summary-fees">$0.00</span></div>
+        <div class="summary-line subtle"><span>Delivery</span><span>$0.00</span></div>
+        <div class="summary-line subtle" style="font-size:0.78rem;margin-bottom:0"><span></span><span id="summary-eticket">1 x eTicket</span></div>
+        <div class="summary-divider"></div>
+        <div class="summary-total"><span>Total</span><span id="summary-total">$45.00</span></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
